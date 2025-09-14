@@ -2,6 +2,7 @@ import 'package:eazy/features/home/manager/tab_cubit.dart';
 import 'package:eazy/features/home/views/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,13 +14,15 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return  MultiBlocProvider(
-      providers: [
-        BlocProvider(create: (context) => TabCubit()),
-      ],
-      child: const MaterialApp(
-        home: HomeView(),
-      ),
-    );
+    return MultiBlocProvider(
+        providers: [
+          BlocProvider(create: (context) => TabCubit()),
+        ],
+        child: ScreenUtilInit(
+            designSize: const Size(393, 852),
+            minTextAdapt: true,
+            splitScreenMode: true,
+            builder: (context, child) => const MaterialApp(
+                debugShowCheckedModeBanner: false, home: HomeView())));
   }
 }

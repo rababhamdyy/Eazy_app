@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_svg: ^2.2.1
   flutter_bloc: ^8.1.3
+  flutter_screenutil: ^5.9.3
 
 dev_dependencies:
   flutter_test:
@@ -60,7 +61,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/images/splash.png
+    - assets/icons/
+    - assets/images/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -94,6 +96,12 @@ flutter:
     - family: Tajawal
       fonts:
         - asset: assets/font/Tajawal-Bold.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+    - family: FORTE
+      fonts:
+        - asset: assets/fonts/FORTE.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

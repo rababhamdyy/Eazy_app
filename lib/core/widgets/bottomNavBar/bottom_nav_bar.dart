@@ -1,6 +1,6 @@
 import 'package:eazy/core/widgets/bottomNavBar/bottom_nav_bar_painter.dart';
 import 'package:eazy/core/widgets/bottomNavBar/center_button.dart';
-import 'package:eazy/core/widgets/bottomNavBar/nav_item.dart';
+import 'package:eazy/core/widgets/bottomNavBar/navItem.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavBar extends StatelessWidget {

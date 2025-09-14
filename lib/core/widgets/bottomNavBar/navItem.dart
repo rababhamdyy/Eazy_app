@@ -1,4 +1,4 @@
-import 'package:eazy/core/utils/App_styles.dart';
+import 'package:eazy/core/utils/appStyles.dart';
 import 'package:flutter/material.dart';
 
 // Navigation item widget for menu items

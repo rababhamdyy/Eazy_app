@@ -74,6 +74,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "flutter_screenutil",
+      "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_screenutil-5.9.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_svg",
       "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_svg-2.2.1",
       "packageUri": "lib/",
@@ -266,7 +272,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2025-09-12T18:13:37.538967Z",
+  "generated": "2025-09-14T17:58:14.998227Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///C:/src/flutter",
