@@ -24,4 +24,9 @@ abstract class AppColors {
   static const red2 = Color(0xffC63737); //results screen
   static const signOut = Color(0xffABADAC); //تسجيل الخروج
   static const iconCamare = Color(0xff2A72AD);
+  static final gray5 =
+      const Color(0xFFDEDEDE).withValues(alpha: .33); // background in home
+  static const orangeHome = Color(0xFFF9BC66);
+  static final grayHome = iconCamare.withValues(alpha: .3);
+  static const colorUpgrade = Color(0xffFDA958);
 }

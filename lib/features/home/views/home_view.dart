@@ -1,6 +1,6 @@
 import 'package:eazy/features/Lessons/Views/lessons_view.dart';
 import 'package:eazy/features/home/manager/tab_cubit.dart';
-import 'package:eazy/features/home/views/home_body.dart';
+import 'package:eazy/features/home/views/widgets/home_body.dart';
 import 'package:eazy/features/profile/views/profile_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

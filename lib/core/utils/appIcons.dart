@@ -17,7 +17,7 @@ abstract class AppIcons {
   static const String bookIcon ='${_iconPath}bookIcon.svg';
   static const String timerIcon ='${_iconPath}timerIcon.svg';
   static const String lock_open ='${_iconPath}lock_open.svg';
-  static const String unlock ='${_iconPath}unlocked.svg';
+  static const String unlock ='${_iconPath}unlocked1.svg';
   static const String multiplechoice ='${_iconPath}Multiplechoice.svg';
   static const String success ='${_iconPath}success.svg';
   static const String arrow_frowerd ='${_iconPath}arrow_frowerd.svg';
@@ -33,7 +33,13 @@ abstract class AppIcons {
   static const String deleteIcon='${_iconPath}delete.svg';
   static const String writeIcon='${_iconPath}write.svg';
   static const String cameraIcon='${_iconPath}camera.svg';
-  static const String close='${_iconPath}close.svg';
+  static const String close='${_iconPath}close 1.svg';
+  static const String rectangle1='${_iconPath}Rectangl1.svg';
+  static const String rectangle2='${_iconPath}Rectangle2.svg';
+  static const String rectangle3='${_iconPath}Rectangle3.svg';
+  static const String checkIcon='${_iconPath}Vector 788.svg';
+
+
 
 
 
