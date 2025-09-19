@@ -1,6 +1,6 @@
 import 'package:eazy/features/home/manager/slider_cubit.dart';
-import 'package:eazy/features/home/views/widgets/slider/slider_image.dart';
-import 'package:eazy/features/home/views/widgets/slider/slider_indicator.dart';
+import 'package:eazy/features/home/views/widgets/home/slider/slider_image.dart';
+import 'package:eazy/features/home/views/widgets/home/slider/slider_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
