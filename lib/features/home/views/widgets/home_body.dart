@@ -1,7 +1,9 @@
 import 'package:eazy/core/helper/my_navgetor.dart';
 import 'package:eazy/core/utils/appColor.dart';
 import 'package:eazy/core/utils/appPaddings.dart';
+import 'package:eazy/features/home/manager/search_cubit.dart';
 import 'package:eazy/features/home/views/all_categories_view.dart';
+import 'package:eazy/features/home/views/search_view.dart';
 import 'package:eazy/features/home/views/widgets/home/bold_text_widget.dart';
 import 'package:eazy/features/home/views/widgets/home/eazy_word.dart';
 import 'package:eazy/features/home/views/widgets/home_grid_widget.dart';
@@ -11,6 +13,7 @@ import 'package:eazy/features/home/views/widgets/home/search_widget.dart';
 import 'package:eazy/features/home/views/widgets/home/slider/slider_section.dart';
 import 'package:eazy/features/home/views/widgets/prograss_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class HomeBody extends StatelessWidget {
@@ -34,7 +37,15 @@ class HomeBody extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 27.h),
-              const SearchWidget(),
+              BlocProvider(
+                create: (_) => SearchCubit(),
+                child: SearchWidget(
+                  isClickable: true,
+                  onTap: () {
+                    MyNavigator.goTo(context, const SearchView());
+                  },
+                ),
+              ),
               SizedBox(height: 14.h),
               const HomeBoldText(text: 'أحدث العروض'),
               SizedBox(height: 12.h),
