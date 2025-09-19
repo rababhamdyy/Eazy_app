@@ -1,5 +1,7 @@
+import 'package:eazy/core/helper/my_navgetor.dart';
 import 'package:eazy/core/utils/appColor.dart';
 import 'package:eazy/core/utils/appPaddings.dart';
+import 'package:eazy/features/home/views/all_categories_view.dart';
 import 'package:eazy/features/home/views/widgets/home/bold_text_widget.dart';
 import 'package:eazy/features/home/views/widgets/home/eazy_word.dart';
 import 'package:eazy/features/home/views/widgets/home_grid_widget.dart';
@@ -38,11 +40,15 @@ class HomeBody extends StatelessWidget {
               SizedBox(height: 12.h),
               const SliderSection(),
               SizedBox(height: 17.h),
-              const Row(
+              Row(
                 children: [
-                  HomeRegularText(text: 'المزيد'),
-                  Spacer(),
-                  HomeBoldText(text: 'الأقسام'),
+                  GestureDetector(
+                    onTap: () =>
+                        MyNavigator.goTo(context, const AllCategoriesView()),
+                    child: const HomeRegularText(text: 'المزيد'),
+                  ),
+                  const Spacer(),
+                  const HomeBoldText(text: 'الأقسام'),
                 ],
               ),
               SizedBox(height: 12.h),
