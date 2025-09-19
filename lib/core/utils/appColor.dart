@@ -28,5 +28,7 @@ abstract class AppColors {
       const Color(0xFFDEDEDE).withValues(alpha: .33); // background in home
   static const orangeHome = Color(0xFFF9BC66);
   static final grayHome = iconCamare.withValues(alpha: .3);
+  static const containerHome = Color(0xFFF9FAFA);
+  static const textHomeSection = Color(0xFF011526);
   static const colorUpgrade = Color(0xffFDA958);
 }
