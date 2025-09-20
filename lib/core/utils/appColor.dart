@@ -32,5 +32,6 @@ abstract class AppColors {
   static const textHomeSection = Color(0xFF011526);
   static const progressHome = Color(0xFFE8E8E8);
   static const searchBackground = Color(0xFFF3F3F3);
+  static const notificationName = Color(0xFF1A201D);
   static const colorUpgrade = Color(0xffFDA958);
 }
