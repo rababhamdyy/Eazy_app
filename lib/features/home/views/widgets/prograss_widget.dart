@@ -17,7 +17,7 @@ class PrograssWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 355.w,
-      height: 148.h,
+      height: 155.h,
       decoration: BoxDecoration(
         color: AppColors.containerHome,
         borderRadius: BorderRadius.circular(12.r),
@@ -37,7 +37,7 @@ class PrograssWidget extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 25,right: 16,bottom: 10),
+            padding: const EdgeInsets.only(left: 25,right: 16,bottom: 5),
             child: Row(
               children: [
                 Container(

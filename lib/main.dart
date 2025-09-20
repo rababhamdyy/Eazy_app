@@ -1,3 +1,4 @@
+import 'package:eazy/features/Lessons/manager/lesson_cubit/cubit.dart';
 import 'package:eazy/features/home/manager/tab_cubit.dart';
 import 'package:eazy/features/home/views/home_view.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
         providers: [
           BlocProvider(create: (context) => TabCubit()),
+          BlocProvider(create: (context) => LessonsCubit())
         ],
         child: ScreenUtilInit(
             designSize: const Size(393, 852),

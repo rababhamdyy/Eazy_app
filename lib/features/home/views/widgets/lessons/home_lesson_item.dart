@@ -123,7 +123,7 @@ class HomeLessonItem extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.symmetric(horizontal: 16.w),
         width: 355.w,
-        // height: 103.h,
+        height: 103.h,
         decoration: BoxDecoration(
           color: AppColors.white2,
           borderRadius: BorderRadius.circular(20.r),
