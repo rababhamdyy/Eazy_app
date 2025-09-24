@@ -1,10 +1,9 @@
-
 import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/core/utils/appColor.dart'; 
 import 'package:flutter/material.dart';
 
-// Navigation item widget for menu items
 class NavItem extends StatelessWidget {
-  final IconData icon;
+  final Widget icon;
   final String label;
   final bool selected;
   final VoidCallback onTap;
@@ -25,16 +24,17 @@ class NavItem extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(
-            icon,
-            color: selected ? const Color(0xFF2A72AD) : Colors.black,
-            size: 23,
+          ColorFiltered(
+            colorFilter: selected
+                ? const ColorFilter.mode(AppColors.blue, BlendMode.srcIn)
+                : const ColorFilter.mode(Colors.black, BlendMode.srcIn),
+            child: icon,
           ),
           const SizedBox(height: 4),
           Text(
             label,
             style: AppStyles.textStyle12w400FF.copyWith(
-              color: selected ? const Color(0xFF2A72AD) : Colors.black,
+              color: selected ? AppColors.blue : Colors.black,
             ),
           ),
         ],

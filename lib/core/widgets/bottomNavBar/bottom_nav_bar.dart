@@ -1,7 +1,9 @@
 
+import 'package:eazy_app/core/utils/appIcons.dart';
 import 'package:eazy_app/core/widgets/bottomNavBar/bottom_nav_bar_painter.dart';
 import 'package:eazy_app/core/widgets/bottomNavBar/center_button.dart';
 import 'package:eazy_app/core/widgets/bottomNavBar/navItem.dart';
+import 'package:eazy_app/core/widgets/customSvg.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavBar extends StatelessWidget {
@@ -39,13 +41,13 @@ class BottomNavBar extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     NavItem(
-                      icon: Icons.menu_book_rounded,
+                      icon: CustomSvg(path: AppIcons.bookIcon),
                       label: 'دروسي',
                       selected: currentIndex == 1,
                       onTap: () => onTap(1),
                     ),
                     NavItem(
-                      icon: Icons.person_outline,
+                      icon: CustomSvg(path: AppIcons.profileIcon),
                       label: 'حسابي',
                       selected: currentIndex == 2,
                       onTap: () => onTap(2),
