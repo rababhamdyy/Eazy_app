@@ -1,4 +1,4 @@
-import 'package:eazy/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
 
 class SliderIndicator extends StatelessWidget {

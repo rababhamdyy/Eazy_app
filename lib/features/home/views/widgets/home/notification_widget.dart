@@ -1,6 +1,7 @@
-import 'package:eazy/core/helper/my_navgator.dart';
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/features/home/views/notification_view.dart';
+
+import 'package:eazy_app/core/helper/my_navgator.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/features/home/views/notification_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -24,7 +25,7 @@ class NotificationWidget extends StatelessWidget {
               color: Colors.blue, borderRadius: BorderRadius.circular(90)),
           width: 6.w,
           height: 10.h,
-          child: const Center(
+          child: Center(
             child: Text(
               "3",
               style: TextStyle(

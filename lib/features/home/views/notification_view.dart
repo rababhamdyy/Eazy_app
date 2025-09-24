@@ -1,7 +1,7 @@
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appPaddings.dart';
-import 'package:eazy/core/widgets/customAppBar.dart';
-import 'package:eazy/features/home/views/widgets/notification/notification_list.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appPaddings.dart';
+import 'package:eazy_app/core/widgets/customAppBar.dart';
+import 'package:eazy_app/features/home/views/widgets/notification/notification_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -16,7 +16,7 @@ class NotificationView extends StatelessWidget {
         padding: AppPaddings.mainPadding,
         child: CustomScrollView(
           slivers: [
-            const SliverToBoxAdapter(
+            SliverToBoxAdapter(
               child: CustomAppBar(title: 'الإشعارات'),
             ),
             SliverToBoxAdapter(

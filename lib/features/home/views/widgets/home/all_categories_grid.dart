@@ -1,5 +1,6 @@
-import 'package:eazy/core/utils/appIcons.dart';
-import 'package:eazy/features/home/views/widgets/home_grid_container.dart';
+
+import 'package:eazy_app/core/utils/appIcons.dart';
+import 'package:eazy_app/features/home/views/widgets/home_grid_container.dart';
 import 'package:flutter/material.dart';
 
 class AllCategoriesGrid extends StatelessWidget {
@@ -13,7 +14,7 @@ class AllCategoriesGrid extends StatelessWidget {
       physics: const NeverScrollableScrollPhysics(),
       crossAxisSpacing: 9.82,
       mainAxisSpacing: 8,
-      children: const [
+      children: [
         HomeGridContainer(
           iconPath: AppIcons.listeningIcon,
           text: 'الاستماع',
@@ -26,39 +27,39 @@ class AllCategoriesGrid extends StatelessWidget {
           iconPath: AppIcons.rulesIcon,
           text: 'القواعد',
         ),
-        HomeGridContainer(
+        const HomeGridContainer(
           iconPath: AppIcons.listeningIcon,
           text: 'الاستماع',
         ),
-        HomeGridContainer(
+        const HomeGridContainer(
           iconPath: AppIcons.wordsIcon,
           text: 'كلمات',
         ),
-        HomeGridContainer(
+        const HomeGridContainer(
           iconPath: AppIcons.rulesIcon,
           text: 'القواعد',
         ),
-        HomeGridContainer(
+        const HomeGridContainer(
           iconPath: AppIcons.listeningIcon,
           text: 'الاستماع',
         ),
-        HomeGridContainer(
+        const HomeGridContainer(
           iconPath: AppIcons.wordsIcon,
           text: 'كلمات',
         ),
-        HomeGridContainer(
+        const HomeGridContainer(
           iconPath: AppIcons.rulesIcon,
           text: 'القواعد',
         ),
-        HomeGridContainer(
+        const HomeGridContainer(
           iconPath: AppIcons.listeningIcon,
           text: 'الاستماع',
         ),
-        HomeGridContainer(
+        const HomeGridContainer(
           iconPath: AppIcons.wordsIcon,
           text: 'كلمات',
         ),
-        HomeGridContainer(
+        const HomeGridContainer(
           iconPath: AppIcons.rulesIcon,
           text: 'القواعد',
         ),

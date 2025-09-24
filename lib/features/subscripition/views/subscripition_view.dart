@@ -1,13 +1,13 @@
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appPaddings.dart';
-import 'package:eazy/core/utils/appStyles.dart';
-import 'package:eazy/core/widgets/customAppBar.dart';
-import 'package:eazy/core/widgets/customButtom.dart';
-import 'package:eazy/features/Upgrade/views/widgets/feature_description.dart';
-import 'package:eazy/features/Upgrade/views/widgets/salary_widget.dart';
+import 'package:eazy_app/core/helper/my_navgator.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appPaddings.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/core/widgets/customAppBar.dart';
+import 'package:eazy_app/core/widgets/customButtom.dart';
+import 'package:eazy_app/features/Upgrade/views/widgets/feature_description.dart';
+import 'package:eazy_app/features/Upgrade/views/widgets/salary_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 class SubscripitionView extends StatelessWidget {
   const SubscripitionView({super.key});
   @override
@@ -18,9 +18,7 @@ class SubscripitionView extends StatelessWidget {
         padding: AppPaddings.mainPadding,
         child: Column(
           children: [
-            CustomAppBar(
-              title: 'الاشتركات',
-            ),
+            CustomAppBar(title: 'الاشتركات',),
             SizedBox(height: 50.h),
             Container(
               width: double.infinity,
@@ -73,9 +71,8 @@ class SubscripitionView extends StatelessWidget {
                   FeatureDescription(),
                   SizedBox(height: 20.h),
                   Padding(
-                    padding: EdgeInsets.only(right: 20.h),
-                    child: Text(
-                      ' تاريخ التجديد  2023 يناير',
+                    padding:EdgeInsets.only(right: 20.h),
+                    child: Text(' تاريخ التجديد  2023 يناير',
                       style: AppStyles.textStyle14w400FF.copyWith(
                         color: AppColors.gray,
                         height: 2.2.h,
@@ -89,12 +86,15 @@ class SubscripitionView extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: 21.w),
                     child: CustomBtn(
-                        text: 'تجديد الاشتراك',
-                        onPressed: () {},
-                        width: double.infinity,
-                        height: 54.h,
-                        colorbut: AppColors.gray5,
-                        textcolor: AppColors.gray),
+                      text: 'تجديد الاشتراك',
+                      onPressed: (){
+                        MyNavigator.goBack(context);
+                      },
+                      width: double.infinity,
+                      height:54.h,
+                      colorbut: AppColors.gray5,
+                      textcolor: AppColors.gray
+                    ),
                   )
                 ],
               ),

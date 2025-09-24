@@ -1,8 +1,9 @@
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appIcons.dart';
-import 'package:eazy/core/utils/appStyles.dart';
-import 'package:eazy/core/widgets/customSvg.dart';
-import 'package:eazy/features/home/data/model/notification_model.dart';
+
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appIcons.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/core/widgets/customSvg.dart';
+import 'package:eazy_app/features/home/data/model/notification_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

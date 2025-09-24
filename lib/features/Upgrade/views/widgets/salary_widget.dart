@@ -1,8 +1,7 @@
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appStyles.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 class SalaryWidget extends StatelessWidget {
   const SalaryWidget({super.key});
 
@@ -25,10 +24,16 @@ class SalaryWidget extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 15),
-              Text('70 د.ل', style: AppStyles.textStyle14w700FF),
+              Text(
+                  '70 د.ل',
+                  style:AppStyles.textStyle14w700FF
+              ),
             ],
           ),
-          Text('السعر', style: AppStyles.textStyle14w700FF),
+          Text(
+              'السعر',
+              style: AppStyles.textStyle14w700FF
+          ),
         ],
       ),
     );

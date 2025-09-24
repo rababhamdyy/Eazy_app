@@ -1,14 +1,15 @@
-import 'package:eazy/core/helper/my_navgator.dart';
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appPaddings.dart';
-import 'package:eazy/core/utils/appStyles.dart';
-import 'package:eazy/core/widgets/customAppBar.dart';
-import 'package:eazy/core/widgets/customButtom.dart';
-import 'package:eazy/features/Lessons/Views/widgets/describtion_list_view.dart';
-import 'package:eazy/features/Lessons/Views/widgets/description_widget.dart';
-import 'package:eazy/features/Lessons/Views/widgets/image_Start_widget.dart';
-import 'package:eazy/features/Lessons/manager/lesson_cubit/cubit.dart';
-import 'package:eazy/features/LessonsDetails/Views/Lessons_details_view.dart';
+import 'package:eazy_app/core/helper/my_navgator.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appPaddings.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/core/widgets/customAppBar.dart';
+import 'package:eazy_app/core/widgets/customButtom.dart';
+
+import 'package:eazy_app/features/Lessons/Views/widgets/describtion_list_view.dart';
+import 'package:eazy_app/features/Lessons/Views/widgets/description_widget.dart';
+import 'package:eazy_app/features/Lessons/Views/widgets/image_Start_widget.dart';
+import 'package:eazy_app/features/Lessons/manager/lesson_cubit/cubit.dart';
+import 'package:eazy_app/features/Lessonsdetails/views/Lessons_details_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -30,7 +31,7 @@ class LessonsView extends StatelessWidget {
                 children: [
                   CustomAppBar(
                     onPressed: () {
-                      print("object");
+                     MyNavigator.goBack(context);
                     },
                   ),
                   SizedBox(height: 13.h,),

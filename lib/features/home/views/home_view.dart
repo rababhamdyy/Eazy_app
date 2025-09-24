@@ -1,10 +1,12 @@
-import 'package:eazy/features/Lessons/Views/lessons_view.dart';
-import 'package:eazy/features/home/manager/tab_cubit.dart';
-import 'package:eazy/features/home/views/my_lessons_view.dart';
-import 'package:eazy/features/home/views/widgets/home_body.dart';
+
+import 'package:eazy_app/core/widgets/bottomNavBar/bottom_nav_bar.dart';
+import 'package:eazy_app/features/account/view/account.dart';
+import 'package:eazy_app/features/home/manager/tab_cubit.dart';
+import 'package:eazy_app/features/home/views/my_lessons_view.dart';
+import 'package:eazy_app/features/home/views/widgets/home_body.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:eazy/core/widgets/bottomNavBar/bottom_nav_bar.dart';
+
 
 
 class HomeView extends StatelessWidget {
@@ -13,7 +15,7 @@ class HomeView extends StatelessWidget {
   static final List<Widget> _pages = [
     const HomeBody(),
     const MyLessonsView(),
-    const LessonsView(),
+     const AccountScreen(),
   ];
 
   @override

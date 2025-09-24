@@ -1,5 +1,6 @@
-import 'package:eazy/features/home/data/model/notification_model.dart';
-import 'package:eazy/features/home/views/widgets/notification/notification_item.dart';
+
+import 'package:eazy_app/features/home/data/model/notification_model.dart';
+import 'package:eazy_app/features/home/views/widgets/notification/notification_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

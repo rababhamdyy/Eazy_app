@@ -1,5 +1,6 @@
-import 'package:eazy/core/utils/appIcons.dart';
-import 'package:eazy/features/home/views/widgets/home_grid_container.dart';
+
+import 'package:eazy_app/core/utils/appIcons.dart';
+import 'package:eazy_app/features/home/views/widgets/home_grid_container.dart';
 import 'package:flutter/material.dart';
 
 class HomeGridWidget extends StatelessWidget {

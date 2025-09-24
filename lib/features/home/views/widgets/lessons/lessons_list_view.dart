@@ -1,5 +1,6 @@
-import 'package:eazy/features/Lessons/Views/widgets/lessons_item.dart';
-import 'package:eazy/features/Lessons/data/models/demo_data.dart';
+
+import 'package:eazy_app/features/Lessons/Views/widgets/lessons_item.dart';
+import 'package:eazy_app/features/Lessons/data/models/demo_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

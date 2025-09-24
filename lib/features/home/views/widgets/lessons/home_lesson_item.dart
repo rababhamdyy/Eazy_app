@@ -1,13 +1,15 @@
-import 'package:eazy/core/helper/my_navgator.dart';
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appIcons.dart';
-import 'package:eazy/core/utils/appImages.dart';
-import 'package:eazy/core/utils/appStyles.dart';
-import 'package:eazy/core/widgets/customSvg.dart';
-import 'package:eazy/features/Lessons/data/models/demo_data.dart';
-import 'package:eazy/features/Lessons/manager/lesson_cubit/cubit.dart';
-import 'package:eazy/features/Lessons/manager/lesson_cubit/states.dart';
-import 'package:eazy/features/Upgrade/views/upgrade_view.dart';
+
+import 'package:eazy_app/core/helper/my_navgator.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appIcons.dart';
+import 'package:eazy_app/core/utils/appImages.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/core/widgets/customSvg.dart';
+import 'package:eazy_app/features/Lessons/data/models/demo_data.dart';
+import 'package:eazy_app/features/Lessons/manager/lesson_cubit/cubit.dart';
+import 'package:eazy_app/features/Lessons/manager/lesson_cubit/states.dart';
+import 'package:eazy_app/features/Lessonsdetails/views/Lessons_details_view.dart';
+import 'package:eazy_app/features/Upgrade/views/upgrade_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -27,7 +29,10 @@ class HomeLessonItem extends StatelessWidget {
       );
     } else if (data.subScription) {
       return GestureDetector(
-        onTap: () {},
+        onTap: () {
+          MyNavigator.goTo(context, const UpgradeView(),
+              type: NavigatorType.push);
+        },
         child: Container(
           alignment: Alignment.center,
           width: 87.w,
@@ -118,7 +123,10 @@ class HomeLessonItem extends StatelessWidget {
         } else if (data.subScription) {
           MyNavigator.goTo(context, const UpgradeView(),
               type: NavigatorType.push);
-        } else {}
+        } else {
+          MyNavigator.goTo(context, const LessonsDetailsView(),
+              type: NavigatorType.push);
+        }
       },
       child: Container(
         padding: EdgeInsets.symmetric(horizontal: 16.w),

@@ -1,6 +1,5 @@
-
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appStyles.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
 import 'package:flutter/material.dart';
 class AlarmWidget extends StatelessWidget {
   const AlarmWidget({super.key, required this.title, required this.content});

@@ -1,19 +1,18 @@
-
-import 'package:eazy/core/helper/my_navgator.dart';
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appIcons.dart';
-import 'package:eazy/core/utils/appImages.dart';
-import 'package:eazy/core/utils/appPaddings.dart';
-import 'package:eazy/core/utils/appStyles.dart';
-import 'package:eazy/core/widgets/customAppBar.dart';
-import 'package:eazy/core/widgets/customButtom.dart';
-import 'package:eazy/core/widgets/customSvg.dart';
-import 'package:eazy/features/Lessons/Views/widgets/image_Start_widget.dart';
-import 'package:eazy/features/LessonsDetails/Views/widgets/alarm_widget.dart';
-import 'package:eazy/features/LessonsDetails/Views/widgets/build_paragraphs.dart';
-import 'package:eazy/features/LessonsDetails/Views/widgets/example_Item.dart';
-import 'package:eazy/features/LessonsDetails/Views/widgets/show_dilaog_widget.dart';
-import 'package:eazy/features/questions/views/quiz_page.dart';
+import 'package:eazy_app/core/helper/my_navgator.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appIcons.dart';
+import 'package:eazy_app/core/utils/appImages.dart';
+import 'package:eazy_app/core/utils/appPaddings.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/core/widgets/customAppBar.dart';
+import 'package:eazy_app/core/widgets/customButtom.dart';
+import 'package:eazy_app/core/widgets/customSvg.dart';
+import 'package:eazy_app/features/Lessons/Views/widgets/image_Start_widget.dart';
+import 'package:eazy_app/features/Lessonsdetails/views/widgets/alarm_widget.dart';
+import 'package:eazy_app/features/Lessonsdetails/views/widgets/build_paragraphs.dart';
+import 'package:eazy_app/features/Lessonsdetails/views/widgets/example_Item.dart';
+import 'package:eazy_app/features/Lessonsdetails/views/widgets/show_dilaog_widget.dart';
+import 'package:eazy_app/features/questions/Views/quiz_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 class LessonsDetailsView extends StatefulWidget {

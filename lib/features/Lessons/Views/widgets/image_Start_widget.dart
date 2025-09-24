@@ -1,6 +1,6 @@
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appImages.dart';
-import 'package:eazy/core/utils/appStyles.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appImages.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 class ImageStartWidget extends StatelessWidget {

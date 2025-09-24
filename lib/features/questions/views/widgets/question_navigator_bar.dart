@@ -1,7 +1,7 @@
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appIcons.dart';
-import 'package:eazy/core/utils/appStyles.dart';
-import 'package:eazy/core/widgets/customSvg.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appIcons.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/core/widgets/customSvg.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -61,20 +61,20 @@ class QuestionNavigatorBar extends StatelessWidget {
                 ),
               );
             }),
+
             IconButton(
               onPressed: currentPage < totalQuestions - 1 ? onNext : null,
               icon: CustomSvg(
                 width: 24.w,
                 height: 24.h,
                 path: AppIcons.arrowBack,
-                color: currentPage < totalQuestions - 1
-                    ? AppColors.black
-                    : AppColors.gray,
-              ),
+                color: currentPage < totalQuestions - 1 ? AppColors.black : AppColors.gray,),
             ),
           ],
         ),
+
         const SizedBox(height: 8),
+
         Directionality(
           textDirection: TextDirection.rtl,
           child: Text(

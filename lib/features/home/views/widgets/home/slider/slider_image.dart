@@ -1,7 +1,8 @@
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appImages.dart';
-import 'package:eazy/core/utils/appStyles.dart';
-import 'package:eazy/features/home/manager/slider_cubit.dart';
+
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appImages.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/features/home/manager/slider_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -22,8 +23,8 @@ class SliderImage extends StatelessWidget {
               context.read<SliderCubit>().changeIndex(index);
             },
             children: [
-              _buildImageSlide(Appimages.homeImage),
-              _buildImageSlide(Appimages.homeImage),
+              _buildImageSlide(Appimages.lessonsImage),
+              _buildImageSlide(Appimages.lessonsImage),
             ],
           ),
           button ?? const SizedBox(),

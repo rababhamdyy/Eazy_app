@@ -1,9 +1,11 @@
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appIcons.dart';
-import 'package:eazy/core/utils/appStyles.dart';
-import 'package:eazy/features/Lessons/data/models/demo_data.dart';
-import 'package:eazy/features/Lessons/manager/lesson_cubit/cubit.dart';
-import 'package:eazy/features/home/views/widgets/lessons/home_lesson_item.dart';
+import 'package:eazy_app/core/helper/my_navgator.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appIcons.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/features/Lessons/data/models/demo_data.dart';
+import 'package:eazy_app/features/Lessons/manager/lesson_cubit/cubit.dart';
+import 'package:eazy_app/features/home/views/widgets/lessons/home_lesson_item.dart';
+import 'package:eazy_app/features/questions/Views/quiz_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -40,17 +42,22 @@ class PrograssWidget extends StatelessWidget {
             padding: const EdgeInsets.only(left: 25,right: 16,bottom: 5),
             child: Row(
               children: [
-                Container(
-                  width: 111,
-                  height: 42,
-                  decoration: BoxDecoration(
-                    color: AppColors.blue,
-                    borderRadius: BorderRadius.circular(12.r),
-                  ),
-                  child: Center(
-                    child: Text('استكمل',
-                        style: AppStyles.textStyle12w700
-                            .copyWith(color: AppColors.white)),
+                GestureDetector(
+                  onTap: () {
+                    MyNavigator.goTo(context, QuizPage(),type: NavigatorType.push);
+
+          },child: Container(
+                    width: 111.w,
+                    height: 42.h,
+                    decoration: BoxDecoration(
+                      color: AppColors.blue,
+                      borderRadius: BorderRadius.circular(12.r),
+                    ),
+                    child: Center(
+                      child: Text('استكمل',
+                          style: AppStyles.textStyle12w700
+                              .copyWith(color: AppColors.white)),
+                    ),
                   ),
                 ),
                 SizedBox(width: 15.w),

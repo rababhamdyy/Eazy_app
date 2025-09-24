@@ -126,4 +126,10 @@ abstract class AppStyles {
       fontWeight: FontWeight.w400,
       fontFamily: 'FF Shamel Family',
       fontFamilyFallback: const ['Roboto']);
+
+  static final textStyleFingerPaint114 = TextStyle(
+    fontSize: 114.67.sp,
+    fontWeight: FontWeight.w400,
+    fontFamily: 'Finger Paint',
+    height: 1.5,);
 }

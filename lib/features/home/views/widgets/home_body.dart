@@ -1,17 +1,17 @@
-import 'package:eazy/core/helper/my_navgetor.dart';
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appPaddings.dart';
-import 'package:eazy/features/home/manager/search_cubit.dart';
-import 'package:eazy/features/home/views/all_categories_view.dart';
-import 'package:eazy/features/home/views/search_view.dart';
-import 'package:eazy/features/home/views/widgets/home/bold_text_widget.dart';
-import 'package:eazy/features/home/views/widgets/home/eazy_word.dart';
-import 'package:eazy/features/home/views/widgets/home_grid_widget.dart';
-import 'package:eazy/features/home/views/widgets/home/notification_widget.dart';
-import 'package:eazy/features/home/views/widgets/home/regular_text_widget.dart';
-import 'package:eazy/features/home/views/widgets/home/search_widget.dart';
-import 'package:eazy/features/home/views/widgets/home/slider/slider_section.dart';
-import 'package:eazy/features/home/views/widgets/prograss_widget.dart';
+import 'package:eazy_app/core/helper/my_navgator.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appPaddings.dart';
+import 'package:eazy_app/features/home/manager/search_cubit.dart';
+import 'package:eazy_app/features/home/views/all_categories_view.dart';
+import 'package:eazy_app/features/home/views/search_view.dart';
+import 'package:eazy_app/features/home/views/widgets/home/bold_text_widget.dart';
+import 'package:eazy_app/features/home/views/widgets/home/eazy_word.dart';
+import 'package:eazy_app/features/home/views/widgets/home/notification_widget.dart';
+import 'package:eazy_app/features/home/views/widgets/home/regular_text_widget.dart';
+import 'package:eazy_app/features/home/views/widgets/home/search_widget.dart';
+import 'package:eazy_app/features/home/views/widgets/home/slider/slider_section.dart';
+import 'package:eazy_app/features/home/views/widgets/home_grid_widget.dart';
+import 'package:eazy_app/features/home/views/widgets/prograss_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -29,10 +29,10 @@ class HomeBody extends StatelessWidget {
             padding: AppPaddings.homeBodyPadding,
             child:
                 Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-              const Row(
+              Row(
                 children: [
                   NotificationWidget(),
-                  Spacer(),
+                  const Spacer(),
                   EazyWord(),
                 ],
               ),

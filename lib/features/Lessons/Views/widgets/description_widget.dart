@@ -1,8 +1,8 @@
 
-import 'package:eazy/core/utils/appColor.dart';
-import 'package:eazy/core/utils/appStyles.dart';
-import 'package:eazy/features/Lessons/manager/lesson_cubit/cubit.dart';
-import 'package:eazy/features/Lessons/manager/lesson_cubit/states.dart';
+import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/appStyles.dart';
+import 'package:eazy_app/features/Lessons/manager/lesson_cubit/cubit.dart';
+import 'package:eazy_app/features/Lessons/manager/lesson_cubit/states.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
