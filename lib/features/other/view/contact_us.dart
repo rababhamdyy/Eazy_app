@@ -3,7 +3,7 @@ import 'package:eazy_app/core/utils/appImages.dart';
 import 'package:eazy_app/core/utils/appPaddings.dart';
 import 'package:eazy_app/core/utils/appStyles.dart';
 import 'package:eazy_app/core/widgets/customAppBar.dart';
-import 'package:eazy_app/core/widgets/customButtom.dart';
+import 'package:eazy_app/core/widgets/custom_buttom.dart';
 import 'package:eazy_app/core/widgets/textField.dart';
 import 'package:eazy_app/features/other/view/widget/social_icons_row.dart';
 import 'package:flutter/material.dart';

@@ -1,10 +1,10 @@
 import 'package:eazy_app/core/helper/my_navgator.dart';
-import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/app_color.dart';
 import 'package:eazy_app/core/utils/appIcons.dart';
 import 'package:eazy_app/core/utils/appPaddings.dart';
 import 'package:eazy_app/core/utils/appStyles.dart';
 import 'package:eazy_app/core/widgets/customAppBar.dart';
-import 'package:eazy_app/core/widgets/customButtom.dart';
+import 'package:eazy_app/core/widgets/custom_buttom.dart';
 import 'package:eazy_app/core/widgets/customSvg.dart';
 import 'package:eazy_app/features/Lessonsdetails/views/Lessons_details_view.dart';
 import 'package:eazy_app/features/questions/Views/widgets/question_navigator_bar.dart';

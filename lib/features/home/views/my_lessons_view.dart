@@ -1,5 +1,4 @@
-
-import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/app_color.dart';
 import 'package:eazy_app/core/utils/appPaddings.dart';
 import 'package:eazy_app/features/account/view/widget/custom_easyText.dart';
 import 'package:eazy_app/features/home/views/widgets/home/bold_text_widget.dart';

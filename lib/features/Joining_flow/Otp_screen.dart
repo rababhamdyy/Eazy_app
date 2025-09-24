@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:eazy_app/core/helper/my_navgator.dart';
-import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/app_color.dart';
 import 'package:eazy_app/core/utils/appPaddings.dart';
 import 'package:eazy_app/core/utils/appStyles.dart';
 import 'package:eazy_app/core/widgets/CustomButton.dart';

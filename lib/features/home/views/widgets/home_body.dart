@@ -1,5 +1,5 @@
 import 'package:eazy_app/core/helper/my_navgator.dart';
-import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/app_color.dart';
 import 'package:eazy_app/core/utils/appPaddings.dart';
 import 'package:eazy_app/features/home/manager/search_cubit.dart';
 import 'package:eazy_app/features/home/views/all_categories_view.dart';

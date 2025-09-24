@@ -1,5 +1,5 @@
 
-import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/app_color.dart';
 import 'package:eazy_app/core/utils/appPaddings.dart';
 import 'package:eazy_app/core/widgets/customAppBar.dart';
 import 'package:eazy_app/features/Lessons/data/models/demo_data.dart';

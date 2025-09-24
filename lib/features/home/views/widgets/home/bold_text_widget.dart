@@ -1,5 +1,5 @@
 
-import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/app_color.dart';
 import 'package:eazy_app/core/utils/appStyles.dart';
 import 'package:flutter/material.dart';
 

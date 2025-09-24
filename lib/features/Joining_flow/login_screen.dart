@@ -1,8 +1,8 @@
 import 'package:eazy_app/core/helper/my_navgator.dart';
-import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/app_color.dart';
 import 'package:eazy_app/core/utils/appPaddings.dart';
 import 'package:eazy_app/core/utils/appStyles.dart';
-import 'package:eazy_app/core/widgets/customButtom.dart';
+import 'package:eazy_app/core/widgets/custom_buttom.dart';
 import 'package:eazy_app/core/widgets/textField.dart';
 import 'package:eazy_app/features/Joining_flow/sign_up_screen.dart';
 import 'package:eazy_app/features/home/views/home_view.dart';

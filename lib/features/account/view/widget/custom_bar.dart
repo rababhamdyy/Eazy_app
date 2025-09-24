@@ -1,6 +1,3 @@
-
-import 'package:eazy_app/core/utils/appColor.dart';
-import 'package:eazy_app/core/utils/appImages.dart';
 import 'package:eazy_app/core/utils/appStyles.dart';
 import 'package:eazy_app/features/account/view/widget/custom_easyText.dart';
 import 'package:eazy_app/features/home/views/widgets/home/notification_widget.dart';

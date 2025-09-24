@@ -1,4 +1,4 @@
-import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/app_color.dart';
 import 'package:eazy_app/core/utils/appIcons.dart';
 import 'package:eazy_app/core/widgets/customSvg.dart';
 import 'package:flutter/material.dart';

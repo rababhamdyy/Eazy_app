@@ -1,4 +1,3 @@
-
 import 'package:eazy_app/features/Lessons/Views/widgets/lessons_item.dart';
 import 'package:eazy_app/features/Lessons/data/models/demo_data.dart';
 import 'package:flutter/material.dart';

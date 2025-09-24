@@ -1,4 +1,4 @@
-import 'package:eazy_app/core/utils/appColor.dart';
+import 'package:eazy_app/core/utils/app_color.dart';
 import 'package:eazy_app/core/utils/appPaddings.dart';
 import 'package:eazy_app/core/widgets/customAppBar.dart';
 import 'package:eazy_app/features/home/views/widgets/notification/notification_list.dart';

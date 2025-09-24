@@ -1,4 +1,3 @@
-import 'package:eazy_app/features/splash&onboarding/widgets/text_splash.dart';
 import 'package:flutter/material.dart';
 
 class SplashBackgroundWidget extends StatelessWidget {
